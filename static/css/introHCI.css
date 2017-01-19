@@ -12,13 +12,21 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 30px;
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
+}
+
+.project{
+     margin-left: 20px;
 }
 
 .jumbotron:after {
